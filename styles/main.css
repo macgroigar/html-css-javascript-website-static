@@ -115,6 +115,12 @@ nav{
     z-index: 11;
 }
 
+.window-scroll{
+    background: var(--color-primary);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+
 .nav__container{
     height: 100%;
     display: flex;
@@ -210,10 +216,22 @@ header{
     background: var(--color-danger);
 }
 
+.category:nth-child(3) .category__icon{
+    background: var(--color-success);
+}
+
+.category:nth-child(4) .category__icon{
+    background: var(--color-warning);
+}
+
+.category:nth-child(5) .category__icon{
+    background: var(--color-success);
+}
+
 .category__icon{
     background: var(--color-primary);
     padding: 0.7rem;
-    border-radius: 00.9rem;
+    border-radius: 0.9rem;
 }
 
 .category h5{
